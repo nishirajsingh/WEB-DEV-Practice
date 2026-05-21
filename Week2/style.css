@@ -1,0 +1,12 @@
+.para2{
+    padding: 10px;
+    background-color: rosybrown;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#sub-heading{
+    color: blue;
+}
+#sub-heading:hover{
+    color: red;
+}

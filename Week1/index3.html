@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My First Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eef2f3; 
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center; 
+            background-color: #ffeb3b; 
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        main {
+            max-width: 500px; 
+            margin: 40px auto; 
+            background: #ffffff;
+            padding: 35px;
+            border-radius: 16px; 
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08); 
+            transition: transform 0.3s ease;
+        }
+
+        main:hover {
+            transform: translateY(-5px); 
+        }
+
+        .profile-section {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        .Profile-img {
+            width: 130px;
+            height: 130px;
+            object-fit: cover; 
+            border: 4px solid #ffeb3b; 
+            border-radius: 50%; 
+            margin-bottom: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .profile-section h2 {
+            margin: 10px 0 5px 0;
+            font-size: 1.8rem;
+            color: #222;
+        }
+
+        .profile-section p {
+            margin: 0;
+            color: #666;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        section {
+            border-top: 1px solid #eee; 
+            padding: 25px 0;
+        }
+
+        section h3 {
+            margin: 0 0 15px 0;
+            font-size: 1.1rem;
+            color: #444;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .about-section p {
+            margin: 0;
+            line-height: 1.6;
+            color: #555;
+            font-size: 0.95rem;
+        }
+
+        ul.badge-list {
+            list-style: none;
+            padding-left: 0;
+            display: flex;
+            justify-content: flex-start; 
+            flex-wrap: wrap; 
+            gap: 10px; 
+            margin: 0;
+        }
+
+        ul.badge-list li {
+            display: flex;
+            align-items: center; 
+            gap: 8px; 
+            background-color: #f4f6f8; 
+            padding: 8px 14px;
+            border-radius: 20px; 
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #444;
+            border: 1px solid #e1e4e6;
+        }
+
+        .skill-icon {
+            width: 18px;
+            height: 18px;
+            object-fit: contain;
+        }
+
+        .contact-section p {
+            margin: 8px 0;
+            font-size: 0.95rem;
+            color: #555;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .contact-section a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+
+        .contact-section a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #777;
+            margin-top: auto; 
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+
+    <main>
+        <div class="profile-section">
+            <img src="https://nishiraj.vercel.app/_next/static/media/nishiraj.b1bcffd8.png" class="Profile-img" alt="Profile Image">
+            <h2>Nishiraj Singh</h2>
+            <p>3<sup>rd</sup> Year B.Tech AIML Student</p>
+        </div>
+
+        <section class="about-section">
+            <h3>About Me</h3>
+            <p>I'm a 3rd year Artificial Intelligence and Machine Learning student. Passionate about exploring full-stack development, cloud solutions, and building smart software applications that solve real-world community challenges.</p>
+        </section>
+
+        <section id="SKills">
+            <h3>Skills</h3>
+            <ul class="badge-list">
+                <li>
+                    <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML5 Logo" class="skill-icon">
+                    HTML
+                </li>
+                <li>
+                    <img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS3 Logo" class="skill-icon">
+                    CSS
+                </li>
+                <li>
+                    <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png" alt="AWS Logo" class="skill-icon">
+                    AWS
+                </li>
+            </ul>
+        </section>
+
+        <section id="Hobbies">
+            <h3>Hobbies</h3>
+            <ul class="badge-list">
+                <li>Playing Table Tennis</li>
+                <li>Open Source Contributing</li>
+                <li>Reading Tech Blogs</li>
+            </ul>
+        </section>
+
+        <section class="contact-section">
+            <h3>Contact Information</h3>
+            <p><strong>Location:</strong> Ratlam, India</p>
+            <p><strong>Email:</strong> <a href="mailto:nishirajsingh2005@gmail.com">nishirajsingh2005@gmail.com</a></p>
+            <p><strong>Website:</strong> <a href="https://nishiraj.vercel.app" target="_blank">nishiraj.vercel.app</a></p>
+        </section>
+    </main>
+
+    <footer>
+        Made by Nishiraj | Copyright @2026
+    </footer>
+
+</body>
+</html>

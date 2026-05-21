@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        .login{
+            text-align: center;
+            border: 1px solid #cecece;
+            border-radius: 10px;
+            padding:10px;
+            display: block;
+            font-family: cursive;
+
+        }
+        .login input{
+            font-family: cursive;
+            padding: 5px;
+            margin: 10px;
+        }
+        .login button{
+            padding: 10px;
+            border: 0;
+            background-color: rgb(43, 43, 174);
+            color: white;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class ="login">
+        <h1>Login Form</h1>
+        <form action="login" method="POST">
+            <label for="username">Enter Username:</label>
+            <input type="text" name="username" placeholder="nishiraj" required>
+            <br>
+            <label for="password">Enter Password:</label>
+            <input type="password" name="password" placeholder="******" required>
+            <br>
+            <input type="checkbox" name="keepsign">
+            <label for="keepsign">Keep me Sign in</label>
+            <br>
+            <button type="submit">Login</button>
+        </form>
+
+    </div>
+</body>
+</html>
