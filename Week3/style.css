@@ -1,4 +1,29 @@
+nav{
+    background-color: rgb(182, 61, 61);
+    text-align: center;
+}
+nav a{
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+}
+nav li{
+    display: inline;
+}
+nav ul{
+    padding: 0px;
+}
 
+header{
+    background-color: antiquewhite;
+    padding: 20px 0px 20px 0px;
+}
+header h1{
+    text-align: center;
+}
 .box{
     display: inline-block;
     background-color: bisque;
@@ -26,4 +51,5 @@
 .c{
     background-color: rgb(118, 118, 239);
     padding: 20px;
+    text-align: center;
 }
