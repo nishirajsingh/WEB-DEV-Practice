@@ -13,32 +13,33 @@
     position: relative;
 }
 .box{
-    display: inline-block;
+    display: inline-flex;
     background-color: antiquewhite;
     height: 100px;
     width: 100px;
     margin: 5px;
     padding: 10px;
+    justify-content: center;
     border: 1px solid;
     border-radius: 10px;
 }
 #b1 {
-        position: absolute;
+        position: sticky;
         top:0;
         left: 0;
     }
 
     #b2 {
-        position: absolute;
+        position: fixed;
         top: 0;
         right: 0;
     }
-
     #b3 {
         position: absolute;
         bottom: 0;
         right:0;
     }
+
 
     #b4 {
         position: absolute;
