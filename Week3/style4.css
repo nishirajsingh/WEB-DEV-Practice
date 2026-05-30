@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 50vh;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+    flex-basis: 200px;
+    box-shadow: 1px 1px 2px 2px grey;
+
+}
+#box2{
+    background-color: black;
+    flex-grow: 2;
+}
+#box3{
+    background-color: rgb(85, 127, 21);
+    flex-shrink: 2;
+
+}
